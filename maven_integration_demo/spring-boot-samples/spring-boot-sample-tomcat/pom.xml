@@ -10,7 +10,7 @@
 	<artifactId>spring-boot-sample-tomcat</artifactId>
 	<name>Spring Boot Tomcat Sample</name>
 	<description>Spring Boot Tomcat Sample</description>
-	<url>http://projects.spring.io/spring-boot/</url>
+	<url>https://projects.spring.io/spring-boot/</url>
 	<organization>
 		<name>Pivotal Software, Inc.</name>
 		<url>http://www.spring.io</url>
@@ -36,6 +36,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+                        <groupId>org.springframework</groupId>
+                        <artifactId>spring-webmvc</artifactId>
+                        <version>3.1.2.RELEASE</version>
+                </dependency>
 	</dependencies>
 	<build>
 		<plugins>
